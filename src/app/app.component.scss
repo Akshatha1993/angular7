@@ -1,0 +1,117 @@
+
+div:nth-of-type(1) {
+    height: 10%;
+}
+
+div:nth-of-type(2) {
+    height: 10%;
+}
+
+div:nth-of-type(3) {
+    height: 70%;
+}
+div:nth-of-type(4) {
+    height: 10%;
+}
+
+.row{
+    
+    width: 100%;
+    
+}
+    .row span .col-md-2{
+        float: left;
+        height: 100%;
+        overflow: hidden;
+        width: 20%;
+       margin-left: 30px;
+    }
+    .row .text{
+        position: relative;
+        left: 10px;
+        text-align: center;
+        vertical-align:-webkit-baseline-middle;
+        overflow: hidden;
+        font-weight: 600;
+    }
+    .row1{
+        background-color:#7c7d88;
+        margin-top: -20px;
+
+    }
+    .row1 .text2{
+        text-align: center;
+        color: white;
+        vertical-align:-webkit-baseline-middle;
+        padding-top: 1%;
+        font-weight: 800;
+    }
+.row3{
+    text-align: center;
+    top: 15px;
+    background-color:#7c7d88;
+    color: #fff;
+    font-weight: 600;
+
+}
+.row3 .phone{
+    float: left;
+    width: 15%;
+    align-content:center;
+    justify-content:center;
+    display: flex;
+    position: relative;
+}
+.row3 .location{
+    width: 70%;
+}
+.row3 .fax{
+    width: 15%;
+    float: right; 
+}
+
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    20%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    45%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    70%{
+        left:-200%;
+    }
+    75%{
+        left:-300%;
+    }
+    95%{
+        left:-300%;
+    }
+    100%{
+        left:-300%;
+    }
+}
+#row2{
+    overflow: hidden;
+}
+#row2 figure img{
+width: 20%;
+float: left;
+}
+#row2 figure{
+    position: relative;
+    width: 500%;
+    height: 100%;
+    margin: 0;
+    left:0;
+    text-align: left;
+    animation: 15s slide infinite;
+}
